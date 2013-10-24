@@ -12,6 +12,16 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+	/*for (NSString* family in [UIFont familyNames])
+	{
+		NSLog(@"%@", family);
+        
+		for (NSString* name in [UIFont fontNamesForFamilyName: family])
+		{
+			NSLog(@"  %@", name);
+		}
+	}*/
+	
     // Override point for customization after application launch.
     return YES;
 }
